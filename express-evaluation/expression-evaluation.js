@@ -106,7 +106,10 @@ class ExpressionEvaluation {
     }
 }
 
-const ev = new ExpressionEvaluation(['2', '+', '3', '*', '5']);
+const ev = new ExpressionEvaluation(['2', '+', '3', '*', '5' , '+', '5' , '/' , '2']);
 ev.evaluate();
 console.log(ev);
 console.log(ev.getResult());
+
+let expression = '2 * 2 * 22 + 2 + (2 + 2)';
+console.log(expression.split(/[*+()]/gm));
