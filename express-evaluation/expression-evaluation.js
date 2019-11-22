@@ -40,7 +40,7 @@ class Util {
     static applyOperation(numberOne, numberTwo, operator) {
         switch (operator) {
             case '+':
-                return numberOne + numberTwo;
+                return +numberOne + +numberTwo;
             case '-':
                 return numberOne - numberTwo;
             case '*':
@@ -59,21 +59,16 @@ class ExpressionEvaluation {
     constructor(arithmeticExpression) {
         this.valueStack = new Stack();
         this.operatorStack = new Stack();
-        this.tokens = arithmeticExpression.split('');
+        this.tokens = arithmeticExpression;
     }
 
     evaluate() {
         for (let i = 0; i < this.tokens.length; i++) {
-            if (this.tokens[i] === ' ') continue
-            else if (this.tokens[i] === '(') {
+            if (this.tokens[i] === '(') {
                 this.operatorStack.push(this.tokens[i]);
             } else if (Util.isDigit(this.tokens[i])) {
-                let digit = 0;
-                while (i < this.tokens.length && Util.isDigit(this.tokens[i])) {
-                    digit = (digit * 10) + (this.tokens[i] - '0');
-                    i++;
-                }
-                this.valueStack.push(digit);
+               
+                this.valueStack.push(this.tokens[i]);
             } else if (this.tokens[i] === ')') {
                 while (!this.operatorStack.isEmpty() && this.operatorStack.peek() !== '(') {
                     this.calculate();
@@ -111,6 +106,7 @@ class ExpressionEvaluation {
     }
 }
 
-const ev = new ExpressionEvaluation('2 * 2 * ( 4 * 2 ) / 12 * 12');
+const ev = new ExpressionEvaluation(['2', '+', '3', '*', '5']);
 ev.evaluate();
+console.log(ev);
 console.log(ev.getResult());

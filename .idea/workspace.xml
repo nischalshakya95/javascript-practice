@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="" />
+    <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/nischal/Ubuntu/react/react-calculator" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -64,7 +66,7 @@
       <workItem from="1573443290123" duration="2945000" />
       <workItem from="1573485403625" duration="470000" />
       <workItem from="1573485890346" duration="313000" />
-      <workItem from="1574328314632" duration="926000" />
+      <workItem from="1574328314632" duration="1729000" />
     </task>
     <servers />
   </component>
