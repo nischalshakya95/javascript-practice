@@ -67,7 +67,6 @@ class ExpressionEvaluation {
             if (this.tokens[i] === '(') {
                 this.operatorStack.push(this.tokens[i]);
             } else if (Util.isDigit(this.tokens[i])) {
-               
                 this.valueStack.push(this.tokens[i]);
             } else if (this.tokens[i] === ')') {
                 while (!this.operatorStack.isEmpty() && this.operatorStack.peek() !== '(') {
@@ -106,10 +105,7 @@ class ExpressionEvaluation {
     }
 }
 
-const ev = new ExpressionEvaluation(['2', '+', '3', '*', '5' , '+', '5' , '/' , '2']);
+const ev = new ExpressionEvaluation(['2.3', '*', '3.2']);
 ev.evaluate();
 console.log(ev);
 console.log(ev.getResult());
-
-let expression = '2 * 2 * 22 + 2 + (2 + 2)';
-console.log(expression.split(/[*+()]/gm));
