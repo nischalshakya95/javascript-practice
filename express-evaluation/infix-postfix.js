@@ -48,6 +48,10 @@ class InfixToPostfix {
         return 0 <= digit && digit <= 9;
     }
 
+    pow(number, power) {
+        return power === 1 ? number : number * this.pow(number, power - 1);
+    }
+
     generatePostFix(expression) {
         expression = expression.split(' ');
         this.postfixExpression = this.evaluateExpression(expression);
@@ -69,6 +73,8 @@ class InfixToPostfix {
                 return numberOne / numberTwo;
             case '%':
                 return numberOne / numberTwo;
+            case '^' :
+                return this.pow(numberOne, numberTwo);
         }
     }
 
@@ -113,7 +119,7 @@ class InfixToPostfix {
 }
 
 let infix = new InfixToPostfix();
-let infixExpression = '2 * 2 + 2 + ( 2 * 2 ) + 2';
+let infixExpression = '2 ^ 5 + 2 * 2';
 let postfixExpression = infix.generatePostFix(infixExpression);
 let result = infix.solvePostFixExpresion(postfixExpression);
 console.log('Postfix expression ', postfixExpression);
