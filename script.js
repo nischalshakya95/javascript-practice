@@ -24,3 +24,8 @@ function recursiveSum(arr) {
 
 console.log(recursiveSum(arrSum));
 
+function pow(number, power) {
+    return power === 1 ? number : number * pow(number, power - 1);
+}
+
+console.log(pow(5, 4));
