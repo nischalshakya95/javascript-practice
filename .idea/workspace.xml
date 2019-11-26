@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-evaluation/infix-postfix.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-evaluation/infix-postfix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react/react-calculator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
@@ -72,7 +73,10 @@
       <workItem from="1574328314632" duration="1729000" />
       <workItem from="1574523748664" duration="3030000" />
       <workItem from="1574607434810" duration="2477000" />
-      <workItem from="1574652007145" duration="2689000" />
+      <workItem from="1574652007145" duration="2764000" />
+      <workItem from="1574662285105" duration="19000" />
+      <workItem from="1574697069928" duration="2377000" />
+      <workItem from="1574732091954" duration="112000" />
     </task>
     <servers />
   </component>
