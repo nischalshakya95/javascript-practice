@@ -15,8 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,6 +32,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,12 +78,23 @@
       <workItem from="1574652007145" duration="2764000" />
       <workItem from="1574662285105" duration="19000" />
       <workItem from="1574697069928" duration="2377000" />
-      <workItem from="1574732091954" duration="112000" />
+      <workItem from="1574732091954" duration="212000" />
+      <workItem from="1574764439200" duration="652000" />
+      <workItem from="1574780634332" duration="389000" />
+      <workItem from="1574819231776" duration="929000" />
+      <workItem from="1574823934978" duration="2892000" />
+      <workItem from="1574840578203" duration="824000" />
+      <workItem from="1574924326872" duration="2524000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/typescript/greeter.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

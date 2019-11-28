@@ -24,6 +24,15 @@ function recursiveSum(arr) {
     return arr.length === 0 ? 0 : arr[0] + recursiveSum(arr.slice(1));
 }
 
+function reverseString(str) {
+    if (str === "")
+        return "";
+    else
+        return reverseString(str.substr(1)) + str.charAt(0);
+}
+
+console.log('reverse string ', reverseString('Hello World'));
+
 console.log('maximum ', findMax(arr, arr.length));
 
 console.log('factorial ', factorial(0));
