@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -93,6 +91,9 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/typescript/greeter.js" />
+        <option value="$PROJECT_DIR$/typescript/hackerrank/birthday-candle.js" />
+        <option value="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" />
+        <option value="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" />
       </list>
     </option>
   </component>
