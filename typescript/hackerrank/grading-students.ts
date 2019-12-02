@@ -9,21 +9,21 @@ class GradingStudents {
         this._grades = grades;
     }
 
-    callBack(mark: number) {
+    getRoundedValue(mark: number): number {
         let ceilingMark = Math.ceil(mark / 5) * 5;
         return ((ceilingMark - mark) >= 3 || ceilingMark < 40) ? mark : ceilingMark;
     }
 
-    map<E>(callback, items: Array<E>): Array<E> {
-        let arr: Array<E> = [];
+    iterateThroughMarks(getRoundedValue, items: Array<number>): Array<number> {
+        let arr: Array<number> = [];
         for (let i in items) {
-            arr.push(callback(items[i]));
+            arr.push(getRoundedValue(items[i]));
         }
         return arr;
     }
 
     getGrade() {
-        return this.map<number>(this.callBack, this._grades);
+        return this.iterateThroughMarks(this.getRoundedValue, this._grades);
     }
 
 }

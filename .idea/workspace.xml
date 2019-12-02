@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/typescript/codewars/alpha-numeric-sorting.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/grading-students.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/hackerrank/grading-students.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +86,8 @@
       <workItem from="1574823934978" duration="2892000" />
       <workItem from="1574840578203" duration="824000" />
       <workItem from="1574924326872" duration="2524000" />
+      <workItem from="1575127193054" duration="23000" />
+      <workItem from="1575268773585" duration="3640000" />
     </task>
     <servers />
   </component>
@@ -94,6 +99,7 @@
         <option value="$PROJECT_DIR$/typescript/hackerrank/birthday-candle.js" />
         <option value="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" />
         <option value="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" />
+        <option value="$PROJECT_DIR$/typescript/codewars/alpha-numeric-sorting.js" />
       </list>
     </option>
   </component>

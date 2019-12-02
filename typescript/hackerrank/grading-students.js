@@ -5,18 +5,19 @@ var GradingStudents = /** @class */ (function () {
         this._noOfStudents = noOfStudents;
         this._grades = grades;
     }
-    GradingStudents.prototype.callBack = function (mark) {
+    GradingStudents.prototype.getRoundedValue = function (mark) {
         var ceilingMark = Math.ceil(mark / 5) * 5;
         return ((ceilingMark - mark) >= 3 || ceilingMark < 40) ? mark : ceilingMark;
     };
-    GradingStudents.prototype.map = function (callback, items) {
+    GradingStudents.prototype.iterateThroughMarks = function (getRoundedValue, items) {
         var arr = [];
-        for (var i in items)
-            arr.push(callback(items[i]));
+        for (var i in items) {
+            arr.push(getRoundedValue(items[i]));
+        }
         return arr;
     };
     GradingStudents.prototype.getGrade = function () {
-        return this.map(this.callBack, this._grades);
+        return this.iterateThroughMarks(this.getRoundedValue, this._grades);
     };
     return GradingStudents;
 }());
