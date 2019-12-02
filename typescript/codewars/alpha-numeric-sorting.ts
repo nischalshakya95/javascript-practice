@@ -1,7 +1,7 @@
 class AlphaNumericSorting {
     order(words: string) {
         return words.split(' ')
-            .sort((a, b) => +a.match(/\d/) - +b.match(/\d/))
+            .sort((a, b) => +a.match(/\d+/) - +b.match(/\d+/))
             .join(' ')
     }
 }

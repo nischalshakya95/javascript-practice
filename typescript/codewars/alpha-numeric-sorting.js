@@ -3,7 +3,7 @@ var AlphaNumericSorting = /** @class */ (function () {
     }
     AlphaNumericSorting.prototype.order = function (words) {
         return words.split(' ')
-            .sort(function (a, b) { return +a.match(/\d/) - +b.match(/\d/); })
+            .sort(function (a, b) { return +a.match(/\d+/) - +b.match(/\d+/); })
             .join(' ');
     };
     return AlphaNumericSorting;
