@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <workItem from="1575268773585" duration="10700000" />
       <workItem from="1575300377365" duration="76000" />
       <workItem from="1575368646484" duration="2715000" />
-      <workItem from="1575429710157" duration="6843000" />
+      <workItem from="1575429710157" duration="8266000" />
     </task>
     <servers />
   </component>

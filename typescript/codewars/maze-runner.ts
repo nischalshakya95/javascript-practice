@@ -44,12 +44,14 @@ class MazeRunner {
                     this.startXY[0] = this.startXY[0] - 1;
                     break;
             }
-            if (this.startXY[0] < 0 || this.startXY[1] < 0 || this._maze.length <= this.startXY[0] || this._maze.length <= this.startXY[1]) {
-                return 'Dead';
-            } else if (this._maze[this.startXY[0]][this.startXY[1]] === 1) {
-                return 'Dead';
-            } else if (this._maze[this.startXY[0]][this.startXY[1]] === this._maze[this.endXY[0]][this.endXY[1]]) {
+            if (this._maze[this.startXY[0]][this.startXY[1]] === this._maze[this.endXY[0]][this.endXY[1]]) {
                 return 'Finish';
+            } else if (this.startXY[0] < 0
+                        || this.startXY[1] < 0
+                        || this._maze.length <= this.startXY[0]
+                        || this._maze.length <= this.startXY[1]
+                        || this._maze[this.startXY[1]][this.startXY[0]] === 1) {
+                return 'Dead';
             }
         }
         return 'Lost';
@@ -65,7 +67,6 @@ let maze = [
     [1, 0, 0, 0, 0, 0, 1],
     [1, 2, 1, 0, 1, 0, 1]
 ];
-let mazeRunner = new MazeRunner(maze, ["N","N","N","N","N","E","E","S","S","E","E","N","N","E"]);
+let mazeRunner = new MazeRunner(maze, ["N", "N", "N", "N", "N", "E", "E", "S", "S", "E", "E", "N", "N", "E"]);
 mazeRunner.solve();
 console.log(mazeRunner.move());
-console.log(mazeRunner);
