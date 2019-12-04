@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typescript/hackerrank/birthday-candle/birthday-candle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/class/Employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/class/Employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/class/Employee.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/class/Employee.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/alpha-numeric-sorting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/alpha-numeric-sorting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/alpha-numeric-sorting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/alpha-numeric-sorting.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/ease-the-stock-broker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/ease-the-stock-broker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/ease-the-stock-broker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/ease-the-stock-broker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/maze-runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/codewars/maze-runner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/greeter.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/greeter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/greeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/greeter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/greeter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/greeter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/hackerrank/between-two-sets/between-two-sets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/birthday-candle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/birthday-candle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/grading-students.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/typescript/hackerrank/grading-students/grading-students.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/min-max-sum.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,12 +63,22 @@
   <component name="ProjectId" id="1TKVGsKIvHCYWjgAwaX5oPxzcZC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.17.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/typescript/hackerrank/grading-students/" />
+      <recent name="$PROJECT_DIR$/typescript/hackerrank/birthday-candle/" />
+      <recent name="$PROJECT_DIR$/typescript/hackerrank/between-two-sets/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -60,12 +92,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.jest">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/js/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jest" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="jest" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.jest" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -103,23 +146,13 @@
       <workItem from="1575268773585" duration="10700000" />
       <workItem from="1575300377365" duration="76000" />
       <workItem from="1575368646484" duration="2715000" />
-      <workItem from="1575429710157" duration="8266000" />
+      <workItem from="1575429710157" duration="9193000" />
+      <workItem from="1575441559895" duration="5171000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/typescript/greeter.js" />
-        <option value="$PROJECT_DIR$/typescript/hackerrank/birthday-candle.js" />
-        <option value="$PROJECT_DIR$/typescript/hackerrank/grading-students.js" />
-        <option value="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" />
-        <option value="$PROJECT_DIR$/typescript/codewars/alpha-numeric-sorting.js" />
-        <option value="$PROJECT_DIR$/typescript/codewars/ease-the-stock-broker.js" />
-        <option value="$PROJECT_DIR$/typescript/codewars/maze-runner.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
