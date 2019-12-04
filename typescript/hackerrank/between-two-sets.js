@@ -51,5 +51,4 @@ var BetweenTwoSets = /** @class */ (function () {
     return BetweenTwoSets;
 }());
 var betweenTwoSets = new BetweenTwoSets([2, 4], [16, 32, 96]);
-betweenTwoSets.getFactor();
-console.log(betweenTwoSets);
+console.log(betweenTwoSets.getFactor());

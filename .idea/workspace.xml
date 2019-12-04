@@ -3,12 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="b1741ffd-809d-46f4-917b-51e5de46162b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/codewars/maze-runner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" beforeDir="false" afterPath="$PROJECT_DIR$/typescript/hackerrank/between-two-sets.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +103,8 @@
       <workItem from="1575127193054" duration="23000" />
       <workItem from="1575268773585" duration="10700000" />
       <workItem from="1575300377365" duration="76000" />
-      <workItem from="1575368646484" duration="1125000" />
+      <workItem from="1575368646484" duration="2715000" />
+      <workItem from="1575429710157" duration="6843000" />
     </task>
     <servers />
   </component>
